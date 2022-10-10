@@ -70,7 +70,11 @@ form {
 .personal-name {
   display: flex;
   gap: 22px;
+  
+}
 
+#event-name {
+  width: 300px;
 }
 
 fieldset {
@@ -81,7 +85,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   gap: 24px;
-}
+  }
 
 fieldset legend {
   font-family: 'Staatliches', sans-serif;
@@ -145,18 +149,23 @@ fieldset legend {
 .col-3 {
   display: flex;
   flex-direction: column;
-  align-items: ;
+
   gap: 20px;
 }
 
-.prime-menthor > div:nth-child(1),
-.sec-menthor > div:nth-child(1) {
-  width: 100%;
+.prime-menthor .input-wrapper:nth-child(2),
+.sec-menthor .input-wrapper:nth-child(2) {
+  margin-left: 22px;
 }
 
 .prime-menthor, .sec-menthor {
   display: flex;
-  gap: 32px;
+  gap: 10px;
+  width: 100%;
+}
+
+#event-date {
+  width: 300px;
 }
 
 footer {
